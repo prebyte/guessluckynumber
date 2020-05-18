@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    flex: 0.2;
+    border-right-style:ridge;
+}
+.header{
+    flex: 0.8;
+}
+.nguess{
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    font-weight: bold;
+    background-color: cadetblue;
+    text-align: center;
+
+}
+.aboutGame{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 20px;
+    border-bottom-style: ridge;
+}
+.topic{
+    flex: 1.5;
+}
+.explanation{
+    flex:8.5;
+    margin-left: 20px;
+}
+.content{
+    display: flex;
+}
+.resultParas{
+    flex: 0.7;
+}
+.guessNumber{
+    flex: 0.3;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+.guessField{
+    height: 40px;
+    font-size: large;
+    text-align: center;
+}
+.guessSubmit{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.lastResult{
+    padding-top: 10px;
+   margin-top:40px;
+   margin-left: 180px;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+}
+.lowOrHi{
+    margin-left: 180px;
+}
